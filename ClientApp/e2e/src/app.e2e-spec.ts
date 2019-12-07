@@ -1,14 +1,15 @@
-import { AppPage } from './app.po';
+import {SerenityPage} from './app.po';
 
-describe('App', () => {
-  let page: AppPage;
+describe('SerenityPage', () => {
+    let page: SerenityPage;
 
-  beforeEach(() => {
-    page = new AppPage();
-  });
+    beforeEach(() => {
+        page = new SerenityPage();
+    });
 
-  it('should display welcome message', () => {
-    page.navigateTo();
-    expect(page.getMainHeading()).toEqual('Hello, world!');
-  });
+    it('should display welcome message', () => {
+        page.navigateTo();
+        expect(page.getTitleText()).toEqual('Welcome to Serenity!');
+    });
+
 });
