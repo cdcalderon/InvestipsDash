@@ -19,11 +19,12 @@ import { AppNotfoundComponent } from './pages/app.notfound.component';
 import { AppErrorComponent } from './pages/app.error.component';
 import { AppAccessdeniedComponent } from './pages/app.accessdenied.component';
 import { AppLoginComponent } from './pages/app.login.component';
+import { TechSignalsChartComponent } from './tech-signals-chart/tech-signals-chart.component';
 
 export const routes: Routes = [
     { path: '', component: AppMainComponent,
         children: [
-            { path: '', component: DashboardComponent },
+            { path: '', component: TechSignalsChartComponent },
             { path: 'sample', component: SampleDemoComponent },
             { path: 'forms', component: FormsDemoComponent },
             { path: 'data', component: DataDemoComponent },

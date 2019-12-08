@@ -105,6 +105,8 @@ import {NodeService} from './demo/service/nodeservice';
 
 import {BreadcrumbService} from './breadcrumb.service';
 import { TvChartContainerComponent } from './tv-chart-container/tv-chart-container.component';
+import { InvestipsChartToolsComponent } from './investips-chart-tools/investips-chart-tools.component';
+import { TechSignalsChartComponent } from './tech-signals-chart/tech-signals-chart.component';
 
 @NgModule({
     imports: [
@@ -207,7 +209,9 @@ import { TvChartContainerComponent } from './tv-chart-container/tv-chart-contain
         AppErrorComponent,
         AppAccessdeniedComponent,
         AppLoginComponent,
-        TvChartContainerComponent
+        TvChartContainerComponent,
+        InvestipsChartToolsComponent,
+        TechSignalsChartComponent
     ],
     providers: [
         {provide: LocationStrategy, useClass: HashLocationStrategy},
