@@ -104,6 +104,7 @@ import {EventService} from './demo/service/eventservice';
 import {NodeService} from './demo/service/nodeservice';
 
 import {BreadcrumbService} from './breadcrumb.service';
+import { TvChartContainerComponent } from './tv-chart-container/tv-chart-container.component';
 
 @NgModule({
     imports: [
@@ -205,7 +206,8 @@ import {BreadcrumbService} from './breadcrumb.service';
         AppNotfoundComponent,
         AppErrorComponent,
         AppAccessdeniedComponent,
-        AppLoginComponent
+        AppLoginComponent,
+        TvChartContainerComponent
     ],
     providers: [
         {provide: LocationStrategy, useClass: HashLocationStrategy},

@@ -98,7 +98,8 @@
                             "node_modules/@fullcalendar/daygrid/main.js",
                             "node_modules/@fullcalendar/timegrid/main.js",
                             "node_modules/@fullcalendar/interaction/main.js",
-                            "node_modules/quill/dist/quill.js"
+                            "node_modules/quill/dist/quill.js",
+                            "node_modules/jquery/dist/jquery.min.js"
                         ],
                         "styles": [
                             "node_modules/primeng/resources/primeng.min.css",
