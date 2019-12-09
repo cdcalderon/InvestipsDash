@@ -102,8 +102,12 @@ import {CarService} from './demo/service/carservice';
 import {CountryService} from './demo/service/countryservice';
 import {EventService} from './demo/service/eventservice';
 import {NodeService} from './demo/service/nodeservice';
+import { StockSignalsService } from './demo/service/stock-signals.service';
 
 import {BreadcrumbService} from './breadcrumb.service';
+import { TvChartContainerComponent } from './tv-chart-container/tv-chart-container.component';
+import { InvestipsChartToolsComponent } from './investips-chart-tools/investips-chart-tools.component';
+import { TechSignalsChartComponent } from './tech-signals-chart/tech-signals-chart.component';
 
 @NgModule({
     imports: [
@@ -205,11 +209,14 @@ import {BreadcrumbService} from './breadcrumb.service';
         AppNotfoundComponent,
         AppErrorComponent,
         AppAccessdeniedComponent,
-        AppLoginComponent
+        AppLoginComponent,
+        TvChartContainerComponent,
+        InvestipsChartToolsComponent,
+        TechSignalsChartComponent
     ],
     providers: [
         {provide: LocationStrategy, useClass: HashLocationStrategy},
-        CarService, CountryService, EventService, NodeService, BreadcrumbService
+        CarService, CountryService, EventService, NodeService, BreadcrumbService, StockSignalsService
     ],
     bootstrap: [AppComponent]
 })

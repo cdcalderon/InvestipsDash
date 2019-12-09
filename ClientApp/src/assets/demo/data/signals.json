@@ -1,0 +1,16 @@
+{
+  "data": [
+      {"id": 1, "symbol": "AAPL", "signalType": "STOCH30", "direction": "up"},
+      {"id": 2, "symbol": "IBM", "signalType": "GAP", "direction": "up"},
+      {"id": 3, "symbol": "SBUX", "signalType": "GAP", "direction": "down"},
+      {"id": 4, "symbol": "MSFT", "signalType": "STOCH30", "direction": "down"},
+      {"id": 5, "symbol": "CUB", "signalType": "RESISTENCE", "direction": "up"},
+      {"id": 6, "symbol": "CSCO", "signalType": "RESISTENCE", "direction": "down"},
+      {"id": 7, "symbol": "JPM", "signalType": "SUPPORT", "direction": "up"},
+      {"id": 8, "symbol": "PNRA", "signalType": "SUPPORT", "direction": "down"},
+      {"id": 9, "symbol": "CMG", "signalType": "STOCH30", "direction": "up"},
+      {"id": 10, "symbol": "FIVE", "signalType": "STOCH30", "direction": "up"},
+      {"id": 11, "symbol": "TSLA", "signalType": "STOCH30", "direction": "up"},
+      {"id": 12, "symbol": "T", "signalType": "STOCH30", "direction": "up"}
+  ]
+}
