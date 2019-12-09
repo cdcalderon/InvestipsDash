@@ -102,6 +102,7 @@ import {CarService} from './demo/service/carservice';
 import {CountryService} from './demo/service/countryservice';
 import {EventService} from './demo/service/eventservice';
 import {NodeService} from './demo/service/nodeservice';
+import { StockSignalsService } from './demo/service/stock-signals.service';
 
 import {BreadcrumbService} from './breadcrumb.service';
 import { TvChartContainerComponent } from './tv-chart-container/tv-chart-container.component';
@@ -215,7 +216,7 @@ import { TechSignalsChartComponent } from './tech-signals-chart/tech-signals-cha
     ],
     providers: [
         {provide: LocationStrategy, useClass: HashLocationStrategy},
-        CarService, CountryService, EventService, NodeService, BreadcrumbService
+        CarService, CountryService, EventService, NodeService, BreadcrumbService, StockSignalsService
     ],
     bootstrap: [AppComponent]
 })
